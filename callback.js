@@ -76,23 +76,23 @@
 //     });
 // });
 
-
-function square(num, callback) {
-    setTimeout(function(){
-        callback(num*num);
-    },1000);
-}
-
-function squareRoot(num, callback){
-    setTimeout(function(){
-        callback(Math.sqrt(num));
-    }, 500);
-}
-
-square(4, function(x2){
-    square(3, function(y2){
-        squareRoot(x2+y2, function (answer) {
-            console.log('The answer is: ', answer);
-        });
-    });
-});
+// CP 3
+// function square(num, callback) {
+//     setTimeout(function(){
+//         callback(num*num);
+//     },1000);
+// }
+//
+// function squareRoot(num, callback){
+//     setTimeout(function(){
+//         callback(Math.sqrt(num));
+//     }, 500);
+// }
+//
+// square(4, function(x2){
+//     square(3, function(y2){
+//         squareRoot(x2+y2, function (answer) {
+//             console.log('The answer is: ', answer);
+//         });
+//     });
+// });
