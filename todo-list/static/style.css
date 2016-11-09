@@ -1,0 +1,26 @@
+.wrapper {
+    /*border: 4px solid blue;*/
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    /*border: 4px solid orange;*/
+    margin-top: 2.5em;
+    overflow: scroll;
+}
+
+#task-list {
+    list-style: none;
+}
+
+#task-list li {
+    font-size: 1.5em;
+}
+
+.done {
+    text-decoration: line-through;
+}
